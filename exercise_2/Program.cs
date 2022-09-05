@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace exercise0;
+
+
+public class LeapYear{
+
+    static void Main()
+{
+}
+    public string IsLeapYear(int year)
+    {
+        if(year%4==0)  return "yay";
+        else return "nay";
+    }
+
+
+}
